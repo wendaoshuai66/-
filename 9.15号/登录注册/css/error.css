@@ -1,0 +1,46 @@
+/*
+* @Author: Administrator
+* @Date:   2017-09-15 18:38:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-09-15 18:47:48
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+a{
+	text-decoration: none;
+}
+html body{
+	background: rgba(0, 0, 0, 0.5)
+}
+main{
+	width: 350px;
+	height: 212px;
+	background:red;
+	padding: 12px 30px;
+	border-radius: 5px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+}
+h1{
+	font-size: 25px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+main>div{
+	text-align: center;
+	color: yellowgreen;
+}
+main>div>span{
+	font-size: 22px;
+	color: lightblue;
+	margin-right: 5px;
+}
